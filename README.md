@@ -10,3 +10,22 @@ for uploading the binary:
 ```
 make upload PROGRAM=i2c_demo BOARD=freedom-e300-hifive1
 ```
+Sample console out:
+```
+core freq at 271758131 Hz
+BIT-BANG I2C DEMO with MPU-6050 IMU
+Power Management 1: 0x00
+Power Management 1: 0x40
+CHIP_ID: 0x68
+DONE
+Gravity in Z 0.0
+Gravity in Z 0.93
+Gravity in Z 0.92
+Gravity in Z 0.93
+Gravity in Z 0.92
+Gravity in Z 0.93
+Gravity in Z 0.93
+Gravity in Z 0.93
+Gravity in Z 0.94
+Gravity in Z 0.93
+```
